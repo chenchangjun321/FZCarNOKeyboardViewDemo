@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B755949F20FD82E500776D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B755949E20FD82E500776D92 /* AppDelegate.m */; };
+		B75594A220FD82E500776D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594A120FD82E500776D92 /* ViewController.m */; };
+		B75594A520FD82E500776D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75594A320FD82E500776D92 /* Main.storyboard */; };
+		B75594A720FD82E600776D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75594A620FD82E600776D92 /* Assets.xcassets */; };
+		B75594AA20FD82E600776D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75594A820FD82E600776D92 /* LaunchScreen.storyboard */; };
+		B75594AD20FD82E600776D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594AC20FD82E600776D92 /* main.m */; };
+		B75594B720FD82E600776D92 /* FZCarNOKeyboardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594B620FD82E600776D92 /* FZCarNOKeyboardViewTests.m */; };
+		B75594C220FD82E600776D92 /* FZCarNOKeyboardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75594B320FD82E600776D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B755949220FD82E500776D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B755949920FD82E500776D92;
+			remoteInfo = FZCarNOKeyboardView;
+		};
+		B75594BE20FD82E600776D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B755949220FD82E500776D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B755949920FD82E500776D92;
+			remoteInfo = FZCarNOKeyboardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B755949A20FD82E500776D92 /* FZCarNOKeyboardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCarNOKeyboardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B755949D20FD82E500776D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B755949E20FD82E500776D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B75594A020FD82E500776D92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B75594A120FD82E500776D92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B75594A420FD82E500776D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B75594A620FD82E600776D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75594A920FD82E600776D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B75594AB20FD82E600776D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75594AC20FD82E600776D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B75594B220FD82E600776D92 /* FZCarNOKeyboardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCarNOKeyboardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75594B620FD82E600776D92 /* FZCarNOKeyboardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyboardViewTests.m; sourceTree = "<group>"; };
+		B75594B820FD82E600776D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75594BD20FD82E600776D92 /* FZCarNOKeyboardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCarNOKeyboardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyboardViewUITests.m; sourceTree = "<group>"; };
+		B75594C320FD82E600776D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B755949720FD82E500776D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594AF20FD82E600776D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594BA20FD82E600776D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B755949120FD82E500776D92 = {
+			isa = PBXGroup;
+			children = (
+				B755949C20FD82E500776D92 /* FZCarNOKeyboardView */,
+				B75594B520FD82E600776D92 /* FZCarNOKeyboardViewTests */,
+				B75594C020FD82E600776D92 /* FZCarNOKeyboardViewUITests */,
+				B755949B20FD82E500776D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B755949B20FD82E500776D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B755949A20FD82E500776D92 /* FZCarNOKeyboardView.app */,
+				B75594B220FD82E600776D92 /* FZCarNOKeyboardViewTests.xctest */,
+				B75594BD20FD82E600776D92 /* FZCarNOKeyboardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B755949C20FD82E500776D92 /* FZCarNOKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				B755949D20FD82E500776D92 /* AppDelegate.h */,
+				B755949E20FD82E500776D92 /* AppDelegate.m */,
+				B75594A020FD82E500776D92 /* ViewController.h */,
+				B75594A120FD82E500776D92 /* ViewController.m */,
+				B75594A320FD82E500776D92 /* Main.storyboard */,
+				B75594A620FD82E600776D92 /* Assets.xcassets */,
+				B75594A820FD82E600776D92 /* LaunchScreen.storyboard */,
+				B75594AB20FD82E600776D92 /* Info.plist */,
+				B75594AC20FD82E600776D92 /* main.m */,
+			);
+			path = FZCarNOKeyboardView;
+			sourceTree = "<group>";
+		};
+		B75594B520FD82E600776D92 /* FZCarNOKeyboardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B75594B620FD82E600776D92 /* FZCarNOKeyboardViewTests.m */,
+				B75594B820FD82E600776D92 /* Info.plist */,
+			);
+			path = FZCarNOKeyboardViewTests;
+			sourceTree = "<group>";
+		};
+		B75594C020FD82E600776D92 /* FZCarNOKeyboardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */,
+				B75594C320FD82E600776D92 /* Info.plist */,
+			);
+			path = FZCarNOKeyboardViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B755949920FD82E500776D92 /* FZCarNOKeyboardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75594C620FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardView" */;
+			buildPhases = (
+				B755949620FD82E500776D92 /* Sources */,
+				B755949720FD82E500776D92 /* Frameworks */,
+				B755949820FD82E500776D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZCarNOKeyboardView;
+			productName = FZCarNOKeyboardView;
+			productReference = B755949A20FD82E500776D92 /* FZCarNOKeyboardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B75594B120FD82E600776D92 /* FZCarNOKeyboardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75594C920FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardViewTests" */;
+			buildPhases = (
+				B75594AE20FD82E600776D92 /* Sources */,
+				B75594AF20FD82E600776D92 /* Frameworks */,
+				B75594B020FD82E600776D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75594B420FD82E600776D92 /* PBXTargetDependency */,
+			);
+			name = FZCarNOKeyboardViewTests;
+			productName = FZCarNOKeyboardViewTests;
+			productReference = B75594B220FD82E600776D92 /* FZCarNOKeyboardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B75594BC20FD82E600776D92 /* FZCarNOKeyboardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75594CC20FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardViewUITests" */;
+			buildPhases = (
+				B75594B920FD82E600776D92 /* Sources */,
+				B75594BA20FD82E600776D92 /* Frameworks */,
+				B75594BB20FD82E600776D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75594BF20FD82E600776D92 /* PBXTargetDependency */,
+			);
+			name = FZCarNOKeyboardViewUITests;
+			productName = FZCarNOKeyboardViewUITests;
+			productReference = B75594BD20FD82E600776D92 /* FZCarNOKeyboardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B755949220FD82E500776D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xiehewanbang;
+				TargetAttributes = {
+					B755949920FD82E500776D92 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B75594B120FD82E600776D92 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B755949920FD82E500776D92;
+					};
+					B75594BC20FD82E600776D92 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B755949920FD82E500776D92;
+					};
+				};
+			};
+			buildConfigurationList = B755949520FD82E500776D92 /* Build configuration list for PBXProject "FZCarNOKeyboardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B755949120FD82E500776D92;
+			productRefGroup = B755949B20FD82E500776D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B755949920FD82E500776D92 /* FZCarNOKeyboardView */,
+				B75594B120FD82E600776D92 /* FZCarNOKeyboardViewTests */,
+				B75594BC20FD82E600776D92 /* FZCarNOKeyboardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B755949820FD82E500776D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75594AA20FD82E600776D92 /* LaunchScreen.storyboard in Resources */,
+				B75594A720FD82E600776D92 /* Assets.xcassets in Resources */,
+				B75594A520FD82E500776D92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594B020FD82E600776D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594BB20FD82E600776D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B755949620FD82E500776D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75594A220FD82E500776D92 /* ViewController.m in Sources */,
+				B75594AD20FD82E600776D92 /* main.m in Sources */,
+				B755949F20FD82E500776D92 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594AE20FD82E600776D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75594B720FD82E600776D92 /* FZCarNOKeyboardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75594B920FD82E600776D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75594C220FD82E600776D92 /* FZCarNOKeyboardViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75594B420FD82E600776D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B755949920FD82E500776D92 /* FZCarNOKeyboardView */;
+			targetProxy = B75594B320FD82E600776D92 /* PBXContainerItemProxy */;
+		};
+		B75594BF20FD82E600776D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B755949920FD82E500776D92 /* FZCarNOKeyboardView */;
+			targetProxy = B75594BE20FD82E600776D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B75594A320FD82E500776D92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75594A420FD82E500776D92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B75594A820FD82E600776D92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75594A920FD82E600776D92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75594C420FD82E600776D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B75594C520FD82E600776D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75594C720FD82E600776D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75594C820FD82E600776D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B75594CA20FD82E600776D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCarNOKeyboardView.app/FZCarNOKeyboardView";
+			};
+			name = Debug;
+		};
+		B75594CB20FD82E600776D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCarNOKeyboardView.app/FZCarNOKeyboardView";
+			};
+			name = Release;
+		};
+		B75594CD20FD82E600776D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCarNOKeyboardView;
+			};
+			name = Debug;
+		};
+		B75594CE20FD82E600776D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCarNOKeyboardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.FZCarNOKeyboardViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCarNOKeyboardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B755949520FD82E500776D92 /* Build configuration list for PBXProject "FZCarNOKeyboardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75594C420FD82E600776D92 /* Debug */,
+				B75594C520FD82E600776D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75594C620FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75594C720FD82E600776D92 /* Debug */,
+				B75594C820FD82E600776D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75594C920FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75594CA20FD82E600776D92 /* Debug */,
+				B75594CB20FD82E600776D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75594CC20FD82E600776D92 /* Build configuration list for PBXNativeTarget "FZCarNOKeyboardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75594CD20FD82E600776D92 /* Debug */,
+				B75594CE20FD82E600776D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B755949220FD82E500776D92 /* Project object */;
+}
