@@ -15,6 +15,8 @@
 		B75594AD20FD82E600776D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594AC20FD82E600776D92 /* main.m */; };
 		B75594B720FD82E600776D92 /* FZCarNOKeyboardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594B620FD82E600776D92 /* FZCarNOKeyboardViewTests.m */; };
 		B75594C220FD82E600776D92 /* FZCarNOKeyboardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */; };
+		B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */; };
+		B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B75594BD20FD82E600776D92 /* FZCarNOKeyboardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCarNOKeyboardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyboardViewUITests.m; sourceTree = "<group>"; };
 		B75594C320FD82E600776D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75594D320FD83F100776D92 /* FZDefineKeyBoardTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZDefineKeyBoardTextField.h; sourceTree = "<group>"; };
+		B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZDefineKeyBoardTextField.m; sourceTree = "<group>"; };
+		B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCarNOKeyBoardView.h; sourceTree = "<group>"; };
+		B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		B755949C20FD82E500776D92 /* FZCarNOKeyboardView */ = {
 			isa = PBXGroup;
 			children = (
+				B75594D220FD83F100776D92 /* DefineKeyBoard */,
 				B755949D20FD82E500776D92 /* AppDelegate.h */,
 				B755949E20FD82E500776D92 /* AppDelegate.m */,
 				B75594A020FD82E500776D92 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				B75594C320FD82E600776D92 /* Info.plist */,
 			);
 			path = FZCarNOKeyboardViewUITests;
+			sourceTree = "<group>";
+		};
+		B75594D220FD83F100776D92 /* DefineKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B75594D320FD83F100776D92 /* FZDefineKeyBoardTextField.h */,
+				B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */,
+				B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */,
+				B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */,
+			);
+			path = DefineKeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 				B75594A220FD82E500776D92 /* ViewController.m in Sources */,
 				B75594AD20FD82E600776D92 /* main.m in Sources */,
 				B755949F20FD82E500776D92 /* AppDelegate.m in Sources */,
+				B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */,
+				B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCarNOKeyboardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCarNOKeyboardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

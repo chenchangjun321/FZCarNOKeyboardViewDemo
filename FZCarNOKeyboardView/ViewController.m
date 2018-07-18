@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FZDefineKeyBoardTextField.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    FZDefineKeyBoardTextField *tf = [[FZDefineKeyBoardTextField alloc]initWithFrame:CGRectMake(10, 100, 200, 50)];
+    tf.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:tf];
+    
+    
 }
 
 
