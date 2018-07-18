@@ -32,9 +32,6 @@
 #define MARGIN_LEFT_END         AUTOSIZEIPHONE6(16)
 
 
-#define DELETE_BUTTON_KEY @"DEL"
-#define MAKESURE_BUTTON_KEY @"确定"
-
 
 #define BUTTON_ROWS                 4           //行数
 #define BUTTON_ROW_NUMBER          10           //每行最多个数
@@ -147,13 +144,11 @@
 }
 
 #pragma mark--------------------------------关于按钮的创建--------------------------
+static const char associatedButtonkey;
+
 -(void)createButtons
 {
-    
-    NSLog(@"%.2f",KEY_BOARD_WIDTH);
-
-    NSLog(@"%.2f",BUTTON_WIDTH);
-    int i = 0;
+        int i = 0;
     for (FZKeyBoardButtonModel *model in self.mModelDateArray) {
         UIButton *mButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, model.buttonWidth, model.buttonHeight)];
         
@@ -172,10 +167,20 @@
         mButton.backgroundColor = HEXCOLORSTRING(model.backColor);
         [mButton setTitleColor:HEXCOLORSTRING(model.titleColor) forState:UIControlStateNormal];
         mButton.layer.cornerRadius = AUTOSIZEIPHONE6(5);
+        objc_setAssociatedObject(mButton, &associatedButtonkey, model, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        [mButton addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:mButton];
         i++;
     }
-    
+}
+
+-(void)onClick:(UIButton *)button
+{
+    FZKeyBoardButtonModel *model= objc_getAssociatedObject(button, &associatedButtonkey);
+    NSLog(@"%@",model.title);
+    if(self.buttonClick){
+        self.buttonClick(model);
+    }
 }
 
 

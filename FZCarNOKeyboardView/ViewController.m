@@ -21,8 +21,7 @@
     FZDefineKeyBoardTextField *tf = [[FZDefineKeyBoardTextField alloc]initWithFrame:CGRectMake(10, 100, 200, 50)];
     tf.backgroundColor = [UIColor greenColor];
     [self.view addSubview:tf];
-    
-    
+        
 }
 
 
