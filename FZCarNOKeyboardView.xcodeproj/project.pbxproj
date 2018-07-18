@@ -17,6 +17,13 @@
 		B75594C220FD82E600776D92 /* FZCarNOKeyboardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */; };
 		B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */; };
 		B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */; };
+		C3E2853520FF6B1F0089419F /* FZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853420FF6B1F0089419F /* FZTools.m */; };
+		C3E2853820FF6CC60089419F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853720FF6CC60089419F /* UIViewExt.m */; };
+		C3E2854220FF799D0089419F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3E2853A20FF799D0089419F /* LICENSE */; };
+		C3E2854320FF799D0089419F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3E2853B20FF799D0089419F /* README.md */; };
+		C3E2854420FF799D0089419F /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853F20FF799D0089419F /* NSObject+YYModel.m */; };
+		C3E2854520FF799D0089419F /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2854020FF799D0089419F /* YYClassInfo.m */; };
+		C3E2854820FF7A6B0089419F /* FZKeyBoardButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,19 @@
 		B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZDefineKeyBoardTextField.m; sourceTree = "<group>"; };
 		B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCarNOKeyBoardView.h; sourceTree = "<group>"; };
 		B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyBoardView.m; sourceTree = "<group>"; };
+		C3E2853320FF6B1F0089419F /* FZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTools.h; sourceTree = "<group>"; };
+		C3E2853420FF6B1F0089419F /* FZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTools.m; sourceTree = "<group>"; };
+		C3E2853620FF6CC60089419F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		C3E2853720FF6CC60089419F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		C3E2853A20FF799D0089419F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C3E2853B20FF799D0089419F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3E2853D20FF799D0089419F /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		C3E2853E20FF799D0089419F /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		C3E2853F20FF799D0089419F /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		C3E2854020FF799D0089419F /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		C3E2854120FF799D0089419F /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		C3E2854620FF7A6B0089419F /* FZKeyBoardButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZKeyBoardButtonModel.h; sourceTree = "<group>"; };
+		C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZKeyBoardButtonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,11 @@
 		B755949C20FD82E500776D92 /* FZCarNOKeyboardView */ = {
 			isa = PBXGroup;
 			children = (
+				C3E2853920FF799D0089419F /* YYModel */,
+				C3E2853620FF6CC60089419F /* UIViewExt.h */,
+				C3E2853720FF6CC60089419F /* UIViewExt.m */,
+				C3E2853320FF6B1F0089419F /* FZTools.h */,
+				C3E2853420FF6B1F0089419F /* FZTools.m */,
 				B75594D220FD83F100776D92 /* DefineKeyBoard */,
 				B755949D20FD82E500776D92 /* AppDelegate.h */,
 				B755949E20FD82E500776D92 /* AppDelegate.m */,
@@ -146,8 +171,32 @@
 				B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */,
 				B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */,
 				B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */,
+				C3E2854620FF7A6B0089419F /* FZKeyBoardButtonModel.h */,
+				C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */,
 			);
 			path = DefineKeyBoard;
+			sourceTree = "<group>";
+		};
+		C3E2853920FF799D0089419F /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3E2853A20FF799D0089419F /* LICENSE */,
+				C3E2853B20FF799D0089419F /* README.md */,
+				C3E2853C20FF799D0089419F /* YYModel */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		C3E2853C20FF799D0089419F /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3E2853D20FF799D0089419F /* YYClassInfo.h */,
+				C3E2853E20FF799D0089419F /* YYModel.h */,
+				C3E2853F20FF799D0089419F /* NSObject+YYModel.m */,
+				C3E2854020FF799D0089419F /* YYClassInfo.m */,
+				C3E2854120FF799D0089419F /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +304,8 @@
 			files = (
 				B75594AA20FD82E600776D92 /* LaunchScreen.storyboard in Resources */,
 				B75594A720FD82E600776D92 /* Assets.xcassets in Resources */,
+				C3E2854320FF799D0089419F /* README.md in Resources */,
+				C3E2854220FF799D0089419F /* LICENSE in Resources */,
 				B75594A520FD82E500776D92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,10 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E2853820FF6CC60089419F /* UIViewExt.m in Sources */,
 				B75594A220FD82E500776D92 /* ViewController.m in Sources */,
+				C3E2853520FF6B1F0089419F /* FZTools.m in Sources */,
+				C3E2854420FF799D0089419F /* NSObject+YYModel.m in Sources */,
+				C3E2854820FF7A6B0089419F /* FZKeyBoardButtonModel.m in Sources */,
 				B75594AD20FD82E600776D92 /* main.m in Sources */,
 				B755949F20FD82E500776D92 /* AppDelegate.m in Sources */,
 				B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */,
+				C3E2854520FF799D0089419F /* YYClassInfo.m in Sources */,
 				B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
