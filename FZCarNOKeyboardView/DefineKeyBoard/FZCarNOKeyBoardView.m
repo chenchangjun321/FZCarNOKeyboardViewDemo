@@ -7,10 +7,11 @@
 //
 
 #import "FZCarNOKeyBoardView.h"
+#import "FZKeyBoardButtonModel.h"
+
 #import "FZTools.h"
 #import "UIViewExt.h"
 #import "YYModel.h"
-#import "FZKeyBoardButtonModel.h"
 /**
  @brief 屏幕适配的宏定义
  */
@@ -129,7 +130,7 @@
                                                                                         }];
         //删除按钮
         if([title isEqualToString:DELETE_BUTTON_KEY]){
-            [tempDict setObject:@"imageName.png" forKey:@"imageName"];
+            [tempDict setObject:DEL_IMAGE_NAME forKey:@"imageName"];
         }
         //确定按钮
         if([title isEqualToString:MAKESURE_BUTTON_KEY]){
@@ -177,7 +178,6 @@ static const char associatedButtonkey;
 -(void)onClick:(UIButton *)button
 {
     FZKeyBoardButtonModel *model= objc_getAssociatedObject(button, &associatedButtonkey);
-    NSLog(@"%@",model.title);
     if(self.buttonClick){
         self.buttonClick(model);
     }
