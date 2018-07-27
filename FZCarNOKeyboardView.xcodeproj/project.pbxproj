@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B72CDCA7210021C400902FB7 /* shanchu_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B72CDCA5210021C400902FB7 /* shanchu_keyboard@3x.png */; };
-		B72CDCA8210021C400902FB7 /* shanchu_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B72CDCA6210021C400902FB7 /* shanchu_keyboard@2x.png */; };
+		B702553F21082A6400BB29C6 /* FZCarNOKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B702553521082A6400BB29C6 /* FZCarNOKeyBoardView.m */; };
+		B702554021082A6400BB29C6 /* FZDefineKeyBoardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B702553721082A6400BB29C6 /* FZDefineKeyBoardTextField.m */; };
+		B702554121082A6400BB29C6 /* FZKeyBoardButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B702553921082A6400BB29C6 /* FZKeyBoardButtonModel.m */; };
+		B702554221082A6400BB29C6 /* shanchu_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B702553B21082A6400BB29C6 /* shanchu_keyboard@2x.png */; };
+		B702554321082A6400BB29C6 /* shanchu_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B702553C21082A6400BB29C6 /* shanchu_keyboard@3x.png */; };
+		B702554421082A6400BB29C6 /* zhezhao.png in Resources */ = {isa = PBXBuildFile; fileRef = B702553D21082A6400BB29C6 /* zhezhao.png */; };
+		B702554521082A6400BB29C6 /* zhezhao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B702553E21082A6400BB29C6 /* zhezhao@3x.png */; };
 		B755949F20FD82E500776D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B755949E20FD82E500776D92 /* AppDelegate.m */; };
 		B75594A220FD82E500776D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594A120FD82E500776D92 /* ViewController.m */; };
 		B75594A520FD82E500776D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75594A320FD82E500776D92 /* Main.storyboard */; };
@@ -17,15 +22,12 @@
 		B75594AD20FD82E600776D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594AC20FD82E600776D92 /* main.m */; };
 		B75594B720FD82E600776D92 /* FZCarNOKeyboardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594B620FD82E600776D92 /* FZCarNOKeyboardViewTests.m */; };
 		B75594C220FD82E600776D92 /* FZCarNOKeyboardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */; };
-		B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */; };
-		B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */; };
 		C3E2853520FF6B1F0089419F /* FZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853420FF6B1F0089419F /* FZTools.m */; };
 		C3E2853820FF6CC60089419F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853720FF6CC60089419F /* UIViewExt.m */; };
 		C3E2854220FF799D0089419F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3E2853A20FF799D0089419F /* LICENSE */; };
 		C3E2854320FF799D0089419F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3E2853B20FF799D0089419F /* README.md */; };
 		C3E2854420FF799D0089419F /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2853F20FF799D0089419F /* NSObject+YYModel.m */; };
 		C3E2854520FF799D0089419F /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2854020FF799D0089419F /* YYClassInfo.m */; };
-		C3E2854820FF7A6B0089419F /* FZKeyBoardButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B72CDCA5210021C400902FB7 /* shanchu_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanchu_keyboard@3x.png"; sourceTree = "<group>"; };
-		B72CDCA6210021C400902FB7 /* shanchu_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanchu_keyboard@2x.png"; sourceTree = "<group>"; };
+		B702553421082A6400BB29C6 /* FZCarNOKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZCarNOKeyBoardView.h; sourceTree = "<group>"; };
+		B702553521082A6400BB29C6 /* FZCarNOKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyBoardView.m; sourceTree = "<group>"; };
+		B702553621082A6400BB29C6 /* FZDefineKeyBoardTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZDefineKeyBoardTextField.h; sourceTree = "<group>"; };
+		B702553721082A6400BB29C6 /* FZDefineKeyBoardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZDefineKeyBoardTextField.m; sourceTree = "<group>"; };
+		B702553821082A6400BB29C6 /* FZKeyBoardButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKeyBoardButtonModel.h; sourceTree = "<group>"; };
+		B702553921082A6400BB29C6 /* FZKeyBoardButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKeyBoardButtonModel.m; sourceTree = "<group>"; };
+		B702553B21082A6400BB29C6 /* shanchu_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanchu_keyboard@2x.png"; sourceTree = "<group>"; };
+		B702553C21082A6400BB29C6 /* shanchu_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanchu_keyboard@3x.png"; sourceTree = "<group>"; };
+		B702553D21082A6400BB29C6 /* zhezhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhezhao.png; sourceTree = "<group>"; };
+		B702553E21082A6400BB29C6 /* zhezhao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhezhao@3x.png"; sourceTree = "<group>"; };
 		B755949A20FD82E500776D92 /* FZCarNOKeyboardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCarNOKeyboardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B755949D20FD82E500776D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B755949E20FD82E500776D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,10 +74,6 @@
 		B75594BD20FD82E600776D92 /* FZCarNOKeyboardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCarNOKeyboardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75594C120FD82E600776D92 /* FZCarNOKeyboardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyboardViewUITests.m; sourceTree = "<group>"; };
 		B75594C320FD82E600776D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B75594D320FD83F100776D92 /* FZDefineKeyBoardTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZDefineKeyBoardTextField.h; sourceTree = "<group>"; };
-		B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZDefineKeyBoardTextField.m; sourceTree = "<group>"; };
-		B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCarNOKeyBoardView.h; sourceTree = "<group>"; };
-		B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCarNOKeyBoardView.m; sourceTree = "<group>"; };
 		C3E2853320FF6B1F0089419F /* FZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTools.h; sourceTree = "<group>"; };
 		C3E2853420FF6B1F0089419F /* FZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTools.m; sourceTree = "<group>"; };
 		C3E2853620FF6CC60089419F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
@@ -79,8 +85,6 @@
 		C3E2853F20FF799D0089419F /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		C3E2854020FF799D0089419F /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		C3E2854120FF799D0089419F /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
-		C3E2854620FF7A6B0089419F /* FZKeyBoardButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZKeyBoardButtonModel.h; sourceTree = "<group>"; };
-		C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZKeyBoardButtonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +112,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B72CDCA4210021A900902FB7 /* keyboardimages */ = {
+		B702553321082A6400BB29C6 /* DefineKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				B72CDCA6210021C400902FB7 /* shanchu_keyboard@2x.png */,
-				B72CDCA5210021C400902FB7 /* shanchu_keyboard@3x.png */,
+				B702553421082A6400BB29C6 /* FZCarNOKeyBoardView.h */,
+				B702553521082A6400BB29C6 /* FZCarNOKeyBoardView.m */,
+				B702553621082A6400BB29C6 /* FZDefineKeyBoardTextField.h */,
+				B702553721082A6400BB29C6 /* FZDefineKeyBoardTextField.m */,
+				B702553821082A6400BB29C6 /* FZKeyBoardButtonModel.h */,
+				B702553921082A6400BB29C6 /* FZKeyBoardButtonModel.m */,
+				B702553A21082A6400BB29C6 /* keyboardimages */,
+			);
+			name = DefineKeyBoard;
+			path = ../../feizhuProduct/lichebao/lichebao/DefineKeyBoard;
+			sourceTree = "<group>";
+		};
+		B702553A21082A6400BB29C6 /* keyboardimages */ = {
+			isa = PBXGroup;
+			children = (
+				B702553B21082A6400BB29C6 /* shanchu_keyboard@2x.png */,
+				B702553C21082A6400BB29C6 /* shanchu_keyboard@3x.png */,
+				B702553D21082A6400BB29C6 /* zhezhao.png */,
+				B702553E21082A6400BB29C6 /* zhezhao@3x.png */,
 			);
 			path = keyboardimages;
 			sourceTree = "<group>";
@@ -145,11 +166,11 @@
 				C3E2853720FF6CC60089419F /* UIViewExt.m */,
 				C3E2853320FF6B1F0089419F /* FZTools.h */,
 				C3E2853420FF6B1F0089419F /* FZTools.m */,
-				B75594D220FD83F100776D92 /* DefineKeyBoard */,
 				B755949D20FD82E500776D92 /* AppDelegate.h */,
 				B755949E20FD82E500776D92 /* AppDelegate.m */,
 				B75594A020FD82E500776D92 /* ViewController.h */,
 				B75594A120FD82E500776D92 /* ViewController.m */,
+				B702553321082A6400BB29C6 /* DefineKeyBoard */,
 				B75594A320FD82E500776D92 /* Main.storyboard */,
 				B75594A620FD82E600776D92 /* Assets.xcassets */,
 				B75594A820FD82E600776D92 /* LaunchScreen.storyboard */,
@@ -175,20 +196,6 @@
 				B75594C320FD82E600776D92 /* Info.plist */,
 			);
 			path = FZCarNOKeyboardViewUITests;
-			sourceTree = "<group>";
-		};
-		B75594D220FD83F100776D92 /* DefineKeyBoard */ = {
-			isa = PBXGroup;
-			children = (
-				B72CDCA4210021A900902FB7 /* keyboardimages */,
-				B75594D320FD83F100776D92 /* FZDefineKeyBoardTextField.h */,
-				B75594D420FD83F100776D92 /* FZDefineKeyBoardTextField.m */,
-				B75594D620FD858100776D92 /* FZCarNOKeyBoardView.h */,
-				B75594D720FD858100776D92 /* FZCarNOKeyBoardView.m */,
-				C3E2854620FF7A6B0089419F /* FZKeyBoardButtonModel.h */,
-				C3E2854720FF7A6B0089419F /* FZKeyBoardButtonModel.m */,
-			);
-			path = DefineKeyBoard;
 			sourceTree = "<group>";
 		};
 		C3E2853920FF799D0089419F /* YYModel */ = {
@@ -317,12 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75594AA20FD82E600776D92 /* LaunchScreen.storyboard in Resources */,
-				B72CDCA7210021C400902FB7 /* shanchu_keyboard@3x.png in Resources */,
+				B702554521082A6400BB29C6 /* zhezhao@3x.png in Resources */,
 				B75594A720FD82E600776D92 /* Assets.xcassets in Resources */,
+				B702554221082A6400BB29C6 /* shanchu_keyboard@2x.png in Resources */,
+				B702554321082A6400BB29C6 /* shanchu_keyboard@3x.png in Resources */,
 				C3E2854320FF799D0089419F /* README.md in Resources */,
-				B72CDCA8210021C400902FB7 /* shanchu_keyboard@2x.png in Resources */,
 				C3E2854220FF799D0089419F /* LICENSE in Resources */,
 				B75594A520FD82E500776D92 /* Main.storyboard in Resources */,
+				B702554421082A6400BB29C6 /* zhezhao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,12 +360,12 @@
 				B75594A220FD82E500776D92 /* ViewController.m in Sources */,
 				C3E2853520FF6B1F0089419F /* FZTools.m in Sources */,
 				C3E2854420FF799D0089419F /* NSObject+YYModel.m in Sources */,
-				C3E2854820FF7A6B0089419F /* FZKeyBoardButtonModel.m in Sources */,
+				B702554121082A6400BB29C6 /* FZKeyBoardButtonModel.m in Sources */,
 				B75594AD20FD82E600776D92 /* main.m in Sources */,
 				B755949F20FD82E500776D92 /* AppDelegate.m in Sources */,
-				B75594D520FD83F100776D92 /* FZDefineKeyBoardTextField.m in Sources */,
 				C3E2854520FF799D0089419F /* YYClassInfo.m in Sources */,
-				B75594D820FD858100776D92 /* FZCarNOKeyBoardView.m in Sources */,
+				B702554021082A6400BB29C6 /* FZDefineKeyBoardTextField.m in Sources */,
+				B702553F21082A6400BB29C6 /* FZCarNOKeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
